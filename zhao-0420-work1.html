@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>水豚噜噜</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:"Microsoft Yahei",sans-serif;
+        }
+        body {
+            background-color: #f8f2e4;
+            color:#333;
+        }
+        /* 头部banner */
+        .banner {
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            gap:40px;
+            padding:30px 20px;
+            background-color:#f9efd8;
+        }
+        .banner-img{
+            width:320px;
+        }
+        .banner-text h1{
+            font-size:60px;
+            color:#222;
+        }
+        .banner-text p{
+            font-size:22px;
+            letter-spacing:4px;
+            margin-top:10px;
+        }
+        /* 导航栏 */
+        nav{
+            background:#fff;
+            padding:16px;
+            text-align:center;
+        }
+        nav a{
+            display:inline-block;
+            padding:8px 16px;
+            margin:0 6px;
+            background:#e8dcca;
+            border-radius:20px;
+            text-decoration:none;
+            color:#333;
+            font-size:15px;
+        }
+        /* 主体内容 */
+        .container{
+            max-width:1200px;
+            margin:40px auto;
+            padding:0 20px;
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:30px;
+        }
+        .left-img{
+            width:100%;
+            border-radius:12px;
+        }
+        .right-text{
+            background:#fff;
+            padding:24px;
+            border-radius:12px;
+            line-height:1.7;
+            font-size:14px;
+        }
+        .right-text h3{
+            margin-bottom:12px;
+        }
+        /* 噜噜小剧场 */
+        .section-title{
+            text-align:center;
+            font-size:32px;
+            margin:50px 0 30px;
+        }
+        .gallery{
+            max-width:1200px;
+            margin:0 auto 50px;
+            padding:0 20px;
+            display:grid;
+            grid-template-columns:repeat(4,1fr);
+            gap:16px;
+        }
+        .gallery img{
+            width:100%;
+            border-radius:12px;
+        }
+        /* 页脚 */
+        footer{
+            text-align:center;
+            padding:20px;
+            font-size:14px;
+            color:#555;
+        }
+    </style>
+</head>
+<body>
+    <!--头部横幅-->
+    <div class="banner">
+        <img class="banner-img" src="https://p3-flow-image-sign.byteimg.com/tos-cn-i-a9rns2rl98/30012104003c40389201024202001311~tplv-a9rns2rl98-image.image" alt="水豚噜噜打电话">
+        <div class="banner-text">
+            <h1>喂喂喂，接电话！</h1>
+            <p>ANSWER THE CALL</p>
+        </div>
+    </div>
+
+    <!--导航栏-->
+    <nav>
+        <a href="#">噜噜之家</a>
+        <a href="#">萌豚档案</a>
+        <a href="#">治愈瞬间</a>
+        <a href="#">饲养员日记</a>
+        <a href="#">萌趣视频</a>
+        <a href="#">噜噜小镇</a>
+        <a href="#">快乐歌声</a>
+    </nav>
+
+    <!--正文区域-->
+    <div class="container">
+        <div>
+            <img class="left-img" src="https://p3-flow-image-sign.byteimg.com/tos-cn-i-a9rns2rl98/0200140044804438922212202001311~tplv-a9rns2rl98-image.image" alt="噜噜骑小摩托">
+        </div>
+        <div class="right-text">
+            <h3>萌宠—水豚噜噜</h3>
+            <p>当全网都在为“精神稳定”发疯时，水豚噜噜凭实力躺赢——毕竟谁能拒绝这只自带松弛感的行走糯米团子？这只爆火表情包的原型，是动物界公认的“老好人”，主打一个“鼠鼠我啊，这辈子没脾气”。</p>
+            <p>噜噜标志性的圆脸袋和下垂嘴角，仿佛写满“已黑化（但电量不足）”，任谁看了都会心软地喊一句“有啥事儿？”。遇到动物打架围观，别的动物抢食让道，主打一个“宇宙的尽头是躺平”，就连鳄鱼从身边路过，它都能淡定贴贴，江湖人称“动物界社交天花板”。</p>
+            <p>现在噜噜的表情包已经攻占朋友圈：开会摸鱼发它，是“带薪冥想”；在无声抗议；被甲方折磨它，秒变“毁灭吧，累了”的精神写照。从早八人的困倦到深夜emo，这只水豚用它的“没睡醒脸”治愈全网，堪称行走的反内卷代言人，毕竟在噜噜的世界里，连呼吸都是慢动作——主打一个，世界纷纷扰扰，我自岁月静好。</p>
+        </div>
+    </div>
+
+    <!--噜噜小剧场-->
+    <h2 class="section-title">噜噜小剧场</h2>
+    <div class="gallery">
+        <img src="https://p3-flow-image-sign.byteimg.com/tos-cn-i-a9rns2rl98/1100140444804438922212202001311~tplv-a9rns2rl98-image.image" alt="噜噜">
+        <img src="https://p3-flow-image-sign.byteimg.com/tos-cn-i-a9rns2rl98/1200140444804438922212202001311~tplv-a9rns2rl98-image.image" alt="噜噜">
+        <img src="https://p3-flow-image-sign.byteimg.com/tos-cn-i-a9rns2rl98/1300140444804438922212202001311~tplv-a9rns2rl98-image.image" alt="噜噜">
+        <img src="https://p3-flow-image-sign.byteimg.com/tos-cn-i-a9rns2rl98/1400140444804438922212202001311~tplv-a9rns2rl98-image.image" alt="噜噜">
+    </div>
+
+    <!--页脚-->
+    <footer>
+        ©2023 水豚噜噜乐园 | 设计制作: 您的团队名称
+    </footer>
+</body>
+</html>
